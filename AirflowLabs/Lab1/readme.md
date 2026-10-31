@@ -126,7 +126,15 @@ Lab_1/
 
 7. **Trigger the DAG**
    - Find `your_python_dag` in the DAGs list
+   - Unpause it with the toggle switch (DAGs start paused; a run triggered while paused stays queued)
    - Click the play button to trigger manually
+   - Trained models are written to `working_data/`
+
+8. **Stop Airflow**
+
+   ```bash
+   docker compose down
+   ```
 
 ## Docker Compose Changes
 
